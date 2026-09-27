@@ -1,0 +1,9 @@
+{
+  "name": "FinKit by Byteframe - Precision Financial, Tax & Loan Calculator Suite",
+  "description": "Comprehensive fintech calculator suite by Byteframe featuring Loan Amortization, SIP, SWP, Future Value, Present Value, Income Tax (New vs Old Regime), Salary Take-Home (CTC), and Capital Gains Tax with real-time analytics, ledgers, and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+
+
