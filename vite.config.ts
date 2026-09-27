@@ -1,10 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // REQUIRED FOR GITHUB PAGES: Replace 'YOUR-REPO-NAME' with your exact GitHub repository name
+    // (e.g., base: '/finkit-by-byteframe/') If your repo is at the root domain, use '/' instead.
+    base: '/finkit-by-byteframe/', 
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
